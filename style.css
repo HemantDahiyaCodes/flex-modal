@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling body */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+/* Styling the flex-container */
+.flex-container {
+  width: 500px;
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+
+/* Styling the icon */
+.exclamation-mark {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Styling the close button */
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
+  
+}
+
+/* Styling the buttons */
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.continue button {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.cancel button {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
+
+
+/* Styling the heading */
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+
+/* styling the text */
+.text {
+    margin-bottom: 16px;
+  }
+
+
+/* Making the buttons side by side */
+.buttons{
+    display: flex;
+    gap: 10px;
+}
